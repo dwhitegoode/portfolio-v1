@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <title>@goodecoder</title>
+</head>
+
+<body id="top">
+  <header class="header center">
+    <a href="#">
+      <h3 class="typewriter">David White-Goode
+      </h3>
+      <h3 style="color:#2978b5;">Software Engineer
+      </h3>
+    </a>
+
+    <nav class="center">
+      <ul class="nav__list center">
+
+        <li class="nav__list-item">
+          <a target="_blank" class="link" download href="./assets/resume.pdf">
+            <span class="btn ">Resume</span>
+          </a>
+
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a target="_blank" href="https://github.com/forextroll" aria-label="github" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a target="_blank" href="https://linkedin.com/in/davidwhitegoode" aria-label="linkedin"
+            class="link link--icon">
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </li>
+
+      </ul>
+
+      <button type="button" class="btn btn--icon nav__hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+
+    <section class="section skills" id="skills">
+      <h2 class="section__title">Technical <span style="color:#2978b5;">Skills</span></h2>
+      <ul class="skills__list">
+        <li class="skills__list-item btn btn--plain">HTML</li>
+        <li class="skills__list-item btn btn--plain">CSS</li>
+        <li class="skills__list-item btn btn--plain">JavaScript</li>
+        <li class="skills__list-item btn btn--plain">React</li>
+        <li class="skills__list-item btn btn--plain">Git</li>
+        <li class="skills__list-item btn btn--plain">PostgreSQL</li>
+        <li class="skills__list-item btn btn--plain">MongoDB</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section projects">
+      <h2 class="section__title">Projects</h2>
+
+      <div class="projects__grid">
+        <div class="project">
+          <h3>Hater App</h3>
+          <p class="project__description">
+            A social media app built with Django and React on a PostgreSQL database in which users can create as well as
+            comment on each other's posts.
+            Built with robust RESTful API routes with token authentication.
+
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">React</li>
+            <li class="project__stack-item">Django</li>
+            <li class="project__stack-item">PostgreSQL</li>
+          </ul>
+
+          <a target="_blank" href="https://haterip.netlify.app/" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+        <div class="project">
+          <h3>The Inner Bod</h3>
+          <p class="project__description">
+            A website built in React, Node, and Express on a MongoDB database that serves users with health information
+            based on input.
+            Worked within a scrum team to develop solutions to user's health inquiries incorporating regular standups,
+            sprints, and task estimations.
+            Built a REST API using Express and Mongoose deployed with Heroku.
+
+          </p>
+          <ul class="project__stack">
+            <li class="project__stack-item">React</li>
+            <li class="project__stack-item">MongoDB</li>
+            <li class="project__stack-item">Node</li>
+            <li class="project__stack-item">Express</li>
+          </ul>
+          <a target="_blank" href="https://theinnerbod.netlify.app/" aria-label="live preview" class="link link--icon">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+
+
+      </div>
+    </section>
+
+    <footer class="footer">
+
+    </footer>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
